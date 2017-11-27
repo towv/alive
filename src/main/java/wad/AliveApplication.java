@@ -11,14 +11,14 @@ public class AliveApplication {
     }
 
     public static String githubUrl() {
-        return "https://github.com/towv/alive";
+        return "https://github.com/towv/alive"+"https://travis-ci.org/towv/alive"+"https://wepalive.herokuapp.com/";
     }
 
     public static String travisUrl() {
-        return "https://travis-ci.org/towv/alive";
+        return "https://github.com/towv/alive";
     }
 
     public static String herokuUrl() {
-        return "";
+        return "https://github.com/towv/alive";
     }
 }
