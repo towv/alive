@@ -15,10 +15,18 @@ public class AliveApplication {
     }
 
     public static String travisUrl() {
+<<<<<<< HEAD
         return "https://travis-ci.org/towv/alive";
     }
 
     public static String herokuUrl() {
         return "https://wepalive.herokuapp.com/";
+=======
+        return "https://github.com/towv/alive";
+    }
+
+    public static String herokuUrl() {
+        return "https://github.com/towv/alive";
+>>>>>>> c68f1e619b99b9cac073439795c9954bdce83cd9
     }
 }
